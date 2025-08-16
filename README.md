@@ -1,4 +1,4 @@
-# 🖩🔢Web-based-Calculator➕➖✖️➗(HTML + CSS + C with CGI Runs on Apache Server)
+# 🖩Web-based-Calculator➕➖✖️➗(HTML + CSS + C with CGI Runs on Apache Server)
 
 This is a simple grid-style web calculator built with:
   HTML & CSS → Frontend interface
