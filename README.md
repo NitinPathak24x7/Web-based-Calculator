@@ -1,11 +1,11 @@
-# 🖩Web-based-Calculator➕➖✖️➗(HTML + CSS + C with CGI Runs on Apache Server)
+# Web-based-Calculator(HTML + CSS + C with CGI Runs on Apache Server)
 
 This is a simple grid-style web calculator built with:
   HTML & CSS → Frontend interface
   C (CGI program) → Backend expression evaluator
   Apache HTTP Server → Runs the CGI program
 
-🚀 Features
+** Features**
 
 Grid-style calculator UI (like a real calculator)
 
@@ -17,7 +17,7 @@ Error handling (division by zero, invalid syntax, missing parentheses)
 
 Shows results cleanly (58 instead of 58.000000)
 
-📂 Project Structure
+ **Project Structure**
 project-folder/
 │── index.html       # Calculator frontend
 │── style.css        # Styling for calculator
@@ -25,7 +25,7 @@ project-folder/
 │── calc.cgi         # Compiled CGI binary
 │── README.md        # Project documentation
 
-⚙️ Setup Instructions
+ **Setup Instructions**
 1. Install Apache with CGI enabled
    sudo apt update
    sudo apt install apache2 gcc -y
@@ -44,7 +44,7 @@ project-folder/
 4. Open in browser
    http://localhost/index.html
 
-🛠️ Tech Stack
+** Tech Stack**
 
 Frontend: HTML5, CSS3, JavaScript
 
@@ -52,10 +52,10 @@ Backend: C (CGI)
 
 Server: Apache2
 
-❌ Error Handling
+** Error Handling**
 
-7*/2 → ❌ Error!
+7*/2 → Error!
 
-5/0 → ❌ Error! (division by zero)
+5/0 →  Error! (division by zero)
 
-(2+3*4 → ❌ Error! (missing bracket)
+(2+3*4 →  Error! (missing bracket)
